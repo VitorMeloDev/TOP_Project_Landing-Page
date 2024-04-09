@@ -12,7 +12,32 @@ header{
 
 nav{
     height: 50px;
-    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerlinkcontainer{
+    display: flex;
+    gap: 20px;
+}
+
+.headerlink{
+    font-size: 18px;
+    color:rgb(228, 228, 228);    
+}
+
+.headerlogo{
+    border: 2px red;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
 .section1{
@@ -35,6 +60,7 @@ nav{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 40px;
+    color:rgb(56, 56, 56);    
 }
 
 .slotContainer{
@@ -66,6 +92,7 @@ img{
 .textSlot{
     text-align: center;
     font-size: 15px;   
+    color:rgb(56, 56, 56);    
 }
 
 .section2{
