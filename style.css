@@ -14,7 +14,6 @@ header{
 }
 
 .headercontainer{
-    border: 2px solid red;
     width: 80%;
     height: 250px;
     display: flex;
@@ -22,7 +21,6 @@ header{
 }
 
 .headercontentcontainer{
-    border: 2px solid green;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -42,10 +40,6 @@ header{
     color: white;
 }
 
-.headerImgContent{
-    border: 2px solid lawngreen;
-    width: 400px;
-}
 
 .buttonHeader{
     padding: 6px 25px;
